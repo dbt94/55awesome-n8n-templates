@@ -246,13 +246,14 @@ Find 11 PDF and document processing templates for n8n. These workflows handle AI
 
 ### How can I automate Discord with n8n?
 
-This section contains 3 Discord automation templates for n8n. Build an AI-powered Discord bot that routes messages to the right department, automate daily comic translations and posts, or share YouTube videos with AI-generated summaries directly to your Discord server.
+This section contains 4 Discord automation templates for n8n. Build an AI-powered Discord bot that routes messages to the right department, automate daily comic translations and posts, share YouTube videos with AI-generated summaries, or post newly live tennis matches to a Discord channel on a schedule.
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
 | Discord AI-powered bot | This workflow creates an AI-powered Discord bot that categorizes user messages (success story, urgent issue, ticket) and routes them to the appropriate department (customer success, IT, customer support). | Customer Support | [Link to Template](Discord/Discord%20AI-powered%20bot.json) |
 | Send daily translated Calvin and Hobbes Comics to Discord | This workflow automates the daily retrieval of Calvin and Hobbes comics, translates the dialogues into English and Korean (or other languages), and posts them to Discord. | Marketing/Content | [Link to Template](Discord/Send%20daily%20translated%20Calvin%20and%20Hobbes%20Comics%20to%20Discord.json) |
 | Share YouTube Videos with AI Summaries on Discord | This workflow automatically shares new YouTube videos on Discord along with AI-generated summaries of their content, leveraging caption data. | Marketing | [Link to Template](Discord/Share%20YouTube%20Videos%20with%20AI%20Summaries%20on%20Discord.json) |
+| Post New Live Tennis Matches to Discord on a Schedule | Every 5 minutes, fetches the currently live tennis matches from the Live Tennis API, keeps only the ones newly in progress (deduplicated across executions), and posts a one-line alert (players and match status) to a Discord channel via a webhook. Free API tier, no card. | Data / Notifications | [Link to Template](Discord/Post%20New%20Live%20Tennis%20Matches%20to%20Discord%20on%20a%20Schedule.json) |
 
 > 🚀 **Automate any workflow.** [Start an n8n Cloud trial →](https://n8n.partnerlinks.io/h1pwwf5m4toe)
 <br />
@@ -431,7 +432,7 @@ Explore 13 social media automation templates for n8n covering Instagram, Twitter
 
 ### What other n8n integration templates are available?
 
-This section includes 44 additional n8n integration templates covering a wide range of platforms and use cases. Highlights include API schema extraction, Pennylane invoice automation, Pinterest analysis with AI, SIEM alert enrichment with MITRE ATT&CK, Bitrix24 chatbots, GitLab code review with ChatGPT, LINE assistant integration, Spotify playlist archiving, Zoom meeting AI assistants, Siri AI agents via Apple Shortcuts, and Todoist inbox organization.
+This section includes 45 additional n8n integration templates covering a wide range of platforms and use cases. Highlights include API schema extraction, Pennylane invoice automation, Pinterest analysis with AI, SIEM alert enrichment with MITRE ATT&CK, Bitrix24 chatbots, GitLab code review with ChatGPT, LINE assistant integration, Spotify playlist archiving, Zoom meeting AI assistants, Siri AI agents via Apple Shortcuts, and Todoist inbox organization.
 
 | Title | Description | Department | Link |
 |-------|-------------|------------|------|
@@ -479,7 +480,7 @@ This section includes 44 additional n8n integration templates covering a wide ra
 | VoiceAgent Lite - Phone Call Logger | Logs phone calls from Vapi.ai or Bland.ai to Google Sheets via webhook. Captures caller info, duration, and transcript summary. | Ops/Support | [Link to Template](Other_Integrations_and_Use_Cases/VoiceAgent%20Lite%20-%20Phone%20Call%20Logger.json) |
 | Generate Seedance videos with Vancine API and bounded polling | Submits a Seedance video generation task, polls its asynchronous status, and handles completion, failure, and bounded timeout paths. | Engineering | [Link to Template](Other_Integrations_and_Use_Cases/Generate%20Seedance%20videos%20with%20Vancine%20API%20and%20bounded%20polling.json) |
 | Issue a Verifiable Certificate (Attestify API) | POST recipient and course data to a free API and receive a permanent, tamper-evident public verify page (Ed25519-signed — change one character and verification fails). Core HTTP node; no API key, no signup. | Education/Ops | [Link to Template](Other_Integrations_and_Use_Cases/Issue%20a%20verifiable%20certificate%20(Attestify).json) |
-
+| Transport Request Intake Lite | Free n8n workflow for normalizing a simple transport request and validating required fields. | Ops/Sales | [Link to Template](Other_Integrations_and_Use_Cases/Transport_Request_Intake_Lite.json) |
 > 🚀 **Automate any workflow.** [Start an n8n Cloud trial →](https://n8n.partnerlinks.io/h1pwwf5m4toe)
 <br />
 <small>* Referral link — this project receives a commission on eligible purchases.</small>
